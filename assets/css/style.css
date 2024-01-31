@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 200vh;
+    /* background-color: khaki; */
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 45px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: 12px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.h-2 {
+    color: var(--Colors-Heading, #1E0E62);
+    font-family: "DM Sans";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+
+.p-1 {
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+
+.p-2 {
+    margin-bottom: 29px;
+}
+
+.mb-52 {
+    margin-bottom: 52px;
+}
+
+.p-commen {
+    color: var(--Colors-Heading, #1E0E62);
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.h-3 {
+    color: #1E0E62;
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 36px;
+    padding-bottom: 13px;
+}
+
+.p-commen1 {
+    color: rgba(21, 20, 57, 0.40);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.img1 {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.p-5 {
+    margin-bottom: 29px;
+}
+
+.p-6 {
+    margin-bottom: 52px;
+}
+
+.img2 {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.p-7 {
+    margin-bottom: 29px;
+}
+
+.p-commen2 {
+    color: rgba(21, 20, 57, 0.40);
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.p-10 {
+    color: #1E0E62;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* margin-bottom: 20px; */
+}
+
+.imgorcontent {
+    display: flex;
+    width: 100%;
+    gap: 19px;
+    padding-right: 19px;
+    padding-bottom: 18px;
+}
+
+/* .img3 {
+    width: 100%;
+} */
+
+.p-12 {
+    color: var(--Colors-Heading, #1E0E62);
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 31px;
+}
+
+.p-13 {
+    margin-top: 2px;
+    margin-bottom: 18px;
+}
+
+.email-button {
+    display: flex;
+    gap: 20px;
+}
+
+#input {
+    width: 220px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid var(--Colors-Grey, #EBEAED);
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+    padding-left: 10px;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    outline: none;
+}
+
+#button {
+    width: 80px;
+    height: 50px;
+    border-radius: 100px;
+    color: var(--Colors-White, #FFF);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    border: none;
+    outline: none;
+    background: var(--Action-Primary, #25DAC5);
+    margin-bottom: 30px;
+}
+
+.box2 {
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding-left: 30px;
+    border: 2px solid var(--Colors-Grey, #EBEAED);
+}
+
+.p-14 {
+    margin-bottom: 18px;
+}
+
+/* .img7 {
+    width: 87%;
+}
+
+.img8 {
+    width: 100%;
+}
+
+.img9 {
+    width: 87%;
+}
+
+.img10 {
+    width: 95%;
+}
+
+.img11 {
+    width: 93%;
+}
+
+.img12 {
+    width: 85%;
+} */
+
+#button1 {
+    color: var(--Colors-White, #FFF);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 130px;
+    height: 40px;
+    border-radius: 100px;
+    background: var(--Action-Third, #E93A7D);
+    outline: none;
+    border: none;
+}
+
+@media (max-width:830px) {
+
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-5 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .img-auto {
+        width: auto;
+    }
+
+    .p-9 {
+        margin-left: 13px;
+        margin-bottom: 10px;
+    }
+}
